@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+  height: 100px;
+  width: 100%;
+}
+
+h2 {
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+h3 {
+  width: 40%
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+  display: flex
+}
+
+#notes-container {
+ height: auto;
+ width: 55%;
+ background-color: rgb(241,241,241);
+ float: right;
+ border: 1px solid black;
+ box-shadow: 5px 10px;
+}
+
+#user-container {
+  height: auto;
+  width: 45%
+}
+
+.description {
+  display: none;
+}
+
+.forms {
+  background-color: yellow;
+  margin-top: 15px;
+  padding: 10px;
+}
